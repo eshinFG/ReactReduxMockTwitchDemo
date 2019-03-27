@@ -1,2 +1,0 @@
-# ReactReduxMockTwitchDemo
-ReactReduxMockTwitchDemo
