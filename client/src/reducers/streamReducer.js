@@ -18,7 +18,7 @@ export default (state = {}, action) => {
     case DELETE_STREAM:
       return _.omit(state,action.payload);
     case FETCH_STREAM:
-      return {}
+      return { ...state, [action.payload.id]: action.payload };
     default:
       return state;
   }
